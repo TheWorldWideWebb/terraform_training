@@ -1,8 +1,19 @@
-# Sample GitLab Project
+# Associate Platform Engineering Evidence
 
-This sample project shows how a project in GitLab looks for demonstration purposes. It contains issues, merge requests and Markdown files in many branches,
-named and filled with lorem ipsum.
+This project aims to show competency at the associate level across several cloud area:
 
-You can look around to get an idea how to structure your project and, when done, you can safely delete this project.
+* OS Fundamentals
+* Source Control
+* Configuring Development Environments
+* Cloud Architecture & Hosting Models
+* Cloud Networking
+* Serverless
+* Containerisation
+* Databases
+* Storage
+* Security
+* Infrastructure as Code
+* CI/CD
+* Cost Control
 
-[Learn more about creating GitLab projects.](https://docs.gitlab.com/ee/gitlab-basics/create-project.html)
+This shall be demonstrated via the deployment of an Nginx server to EC2

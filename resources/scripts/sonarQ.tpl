@@ -1,3 +1,5 @@
+#!/bin/bash
+sudo su
 sudo apt update
 
 sudo apt-get install \

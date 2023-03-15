@@ -1,20 +1,7 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.16"
-    }
-    docker = {
-      source  = "kreuzwerker/docker"
-      version = "~> 2.13.0"
-    }
-  }
-
-  required_version = ">= 1.2.0"
+module "networking" {
+  source = "./modules/Network"
+  environment          = "develop"
+  vpc_cidr             = "10.0.0.0/16"
+  public_subnets_cidr  = ["10.0.0.0/24"]
+  private_subnets_cidr = ["10.0.1.0/24"]
 }
-
-provider "aws" {
-  region  = "eu-west-1"
-}
-
-provider "docker" {}
